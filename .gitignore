@@ -81,7 +81,7 @@ src/qt/bitcoin-qt.includes
 *.qm
 Makefile
 bjornc-qt
-bjornc-Qt.app
+Bjornc-Qt.app
 background.tiff*
 
 # Unit-tests
