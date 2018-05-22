@@ -8,7 +8,7 @@ Running
 ---------------------
 After compiling bjornc-core, the benchmarks can be run with:
 
-    src/bench/bench_bjornc
+    src/bench/bench_bitcoin
 
 The output will look similar to:
 ```
@@ -43,7 +43,7 @@ Help
 ---------------------
 `-?` will print a list of options and exit:
 
-    src/bench/bench_bjornc -?
+    src/bench/bench_bitcoin -?
 
 Notes
 ---------------------
