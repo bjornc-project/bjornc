@@ -242,7 +242,7 @@ Threads
 
 - ThreadRPCServer : Remote procedure call handler, listens on port 9332 for connections and services them.
 
-- BitcoinMiner : Generates bjorncs (if wallet is enabled).
+- BitcoinMiner : Generates bjornc (if wallet is enabled).
 
 - Shutdown : Does an orderly shutdown of everything.
 
