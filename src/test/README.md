@@ -5,32 +5,32 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with `make check`.
 
-To run the litecoind tests manually, launch `src/test/test_litecoin`. To recompile
+To run the bjorncd tests manually, launch `src/test/test_bjornc`. To recompile
 after a test file was modified, run `make` and then run the test again. If you
 modify a non-test file, use `make -C src/test` to recompile only what's needed
-to run the litecoind tests.
+to run the bjorncd tests.
 
-To add more litecoind tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more bjorncd tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the `test/` directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the litecoin-qt tests manually, launch `src/qt/test/test_litecoin-qt`
+To run the bjornc-qt tests manually, launch `src/qt/test/test_litecoin-qt`
 
-To add more litecoin-qt tests, add them to the `src/qt/test/` directory and
+To add more bjornc-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.
 
 ### Running individual tests
 
-test_litecoin has some built-in command-line arguments; for
+test_bjornc has some built-in command-line arguments; for
 example, to run just the getarg_tests verbosely:
 
-    test_litecoin --log_level=all --run_test=getarg_tests
+    test_bjornc --log_level=all --run_test=getarg_tests
 
 ... or to run just the doubledash test:
 
-    test_litecoin --run_test=getarg_tests/doubledash
+    test_bjornc --run_test=getarg_tests/doubledash
 
-Run `test_litecoin --help` for the full list.
+Run `test_bjornc --help` for the full list.
 
 ### Note on adding test cases
 
